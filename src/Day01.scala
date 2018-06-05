@@ -1,10 +1,10 @@
 object Day01 {
   
   def main(args: Array[String]): Unit = {
-     println(888) 
-     
-     val str:Double=123;
-     var str1=123;
+      
+    helloWorld() 
+    
+    initVar
      
      print(1+2+3)
      print(1.+(2).+(3))
@@ -12,6 +12,15 @@ object Day01 {
      print(new xbb().add(1, 2))
      
      
+  }
+  def helloWorld(){
+    
+    println("hello world")
+  }
+  
+  def initVar(){
+    val str:Double=123;
+     var str1=123
   }
   
 }
